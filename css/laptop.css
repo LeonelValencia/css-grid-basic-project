@@ -1,0 +1,29 @@
+.hero{
+  max-width: 1300px;
+  position: relative;
+  padding: 0 0 0 4rem;
+  margin: 0 auto;
+  grid-template-columns: minmax(30rem, 1fr) 1fr;
+  background-image: none;
+}
+.hero img{
+  display:inline-block;
+}
+.hero::before{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 20%,rgba(0, 0, 0, 0))
+}
+.services .dishes {
+  grid-template-areas: 
+  'a a b c' 
+  'a a d e';
+  gap: 2.4rem;
+}
+
+.dishes-image__big {
+  grid-area: a;
+}
+.menu .plates{
+  grid-template-columns: repeat(5, 1fr);
+  place-items: center;
+  gap: 2rem;
+}

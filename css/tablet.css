@@ -1,0 +1,26 @@
+.hero{
+    grid-template-columns: minmax(30rem, 1fr) 1fr;
+  }
+.services{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+.services .dishes{
+    grid-template-areas: 
+    'a a a a'
+    'a a a a'
+    'b c d e';
+    gap: 1rem;
+}
+.dishes-image__big{
+    grid-area: a;
+}
+.menu{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+.plates{
+    grid-template-columns: repeat(auto-fit, 14rem);
+    place-content: center;
+    gap: 1.2rem;
+}
