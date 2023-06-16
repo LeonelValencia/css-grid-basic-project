@@ -1,4 +1,4 @@
-# platzi-css-grid-basic-project
+# css grid basic project
 Proyecto del Curso de CSS Grid Básico by PLATZI
 
 https://leonelvalencia.github.io/platzi-css-grid-basic-project/
